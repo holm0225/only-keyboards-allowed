@@ -2,6 +2,12 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+.skip-links:focus,
+.nav:focus,
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
 .section-dark {
   background-color: #000308;
   color: #fff;
